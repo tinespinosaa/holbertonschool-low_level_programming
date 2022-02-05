@@ -1,2 +1,1 @@
-Proyect 0x00. C - Hello, World
-
+#File at the root
