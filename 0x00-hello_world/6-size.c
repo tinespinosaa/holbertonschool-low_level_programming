@@ -2,6 +2,7 @@
 /**
 * main - print the size of various types
 * on the computer it is compiled and run on
+*Return: none
 */
 int main(void)
 {
@@ -11,3 +12,4 @@ int main(void)
 	printf("Size of a long long int: 8 byte(s) \n");
 	printf("Size of a float: 4 byte(s) \n");
 }
+
