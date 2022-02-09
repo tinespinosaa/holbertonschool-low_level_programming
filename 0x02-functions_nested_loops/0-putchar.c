@@ -1,10 +1,8 @@
-
+#include "main.h"
 /**
 * main - Entry point
 * Return: print 0
-* @c: char
 */
-int _putchar(char c);
 int main(void)
 {
 	_putchar('_');
