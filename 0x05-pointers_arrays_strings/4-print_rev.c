@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 * print_rev - checks for  lowercase character
-* @s character to check
+* @s: character to check
 * Return: 0
 */
 void print_rev(char *s)
