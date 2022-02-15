@@ -1,19 +1,15 @@
 #include "main.h"
 /**
 * puts2 - prints every other character of a spring
-* @str: character to check
-* Return: 0
+* @str: string to be reversed
 */
 void puts2(char *str)
 {
 	int i = 0;
 
-	while (*str != '\0')
-	{
-		_putchar(*str);
-		i++;
-		str += 2;
-	}
-	_putchar(10);
-}
+	while (*(str + i) != '\0')
+		if (i++ % 2 == 0)
+			_putchar(str[i - 1]);
 
+	_putchar('\n');
+}
