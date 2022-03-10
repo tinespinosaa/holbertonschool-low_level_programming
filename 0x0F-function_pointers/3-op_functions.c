@@ -1,64 +1,62 @@
-#include <stdio.h>
-#include "3-calc.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
-  * op_add - function that add two integers.
-  * @a: integer
-  * @b: integer
-  * Return: prints aphabet
-  */
+ * op_add- isdigit
+ * @a: integer
+ * @b: integer
+ * Return: prints alphabet
+ */
 int op_add(int a, int b)
 {
 	return (a + b);
 }
 /**
-  * op_sub - function that substrac two integers.
-  * @a: ...
-  * @b:  ..
-  * Return: ....
-  */
+ * op_sub- isdigit
+ * @a: integer
+ * @b: integer
+ * Return: prints alphabet
+ */
 int op_sub(int a, int b)
 {
 	return (a - b);
 }
 /**
-  * op_mul - function that multiply two integers.
-  * @a: ...
-  * @b:  ..
-  * Return: ....
-  */
+ * op_mul- isdigit
+ * @a: integer
+ * @b: integer
+ * Return: prints alphabet
+ */
 int op_mul(int a, int b)
 {
 	return (a * b);
 }
 /**
-  * op_div - function that divide two integers.
-  * @a: ...
-  * @b:  ..
-  * Return: ....
-  */
+ * op_div- isdigit
+ * @a: integer
+ * @b: integer
+ * Return: prints alphabet
+ */
 int op_div(int a, int b)
 {
 	if (b == 0)
 	{
-		printf("Error\n");
+		printf("%s", "Error\n");
 		exit(100);
 	}
 	return (a / b);
 }
 /**
-  * op_mod - function that returns the module betwee two integers.
-  * @a: ...
-  * @b:  ..
-  * Return: ....
-  */
+ * op_mod- isdigit
+ * @a: integer
+ * @b: integer
+ * Return: prints alphabet
+ */
 int op_mod(int a, int b)
 {
 	if (b == 0)
 	{
-		printf("Error\n");
+		printf("%s", "Error\n");
 		exit(100);
 	}
 	return (a % b);
 }
-
