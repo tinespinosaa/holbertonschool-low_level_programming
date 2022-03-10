@@ -3,9 +3,9 @@
 #include <stdlib.h>
 /**
   * op_add - function that add two integers.
-  * @a: ...
-  * @b:  ..
-  * Return: ....
+  * @a: integer
+  * @b: integer
+  * Return: prints aphabet
   */
 int op_add(int a, int b)
 {
