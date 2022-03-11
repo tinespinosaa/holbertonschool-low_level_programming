@@ -1,1 +1,1 @@
-README for 0x10. C - Variadic functions
+README for 0x10. C - Variadic functions.
