@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * sum_them_all - function that prints a struct dog
-* @n: variable name.
+* @n: variable name
 * Return: result
 */
 int sum_them_all(const unsigned int n, ...)
